@@ -44,6 +44,10 @@ int main(){
     strcpy(dados.nome,"Marcos");
     dados.idade=23;
     inserir(&lista,dados);
+    strcpy(dados.nome,"tatiana");
+    inserir(&lista,dados);
+    strcpy(dados.nome,"Maria");
+    inserir(&lista,dados);
     imprimir(lista);
 
     return 0;
