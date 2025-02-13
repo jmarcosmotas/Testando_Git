@@ -40,6 +40,11 @@ int main(){
     inserir(&f1,4);
     inserir(&f1,5);
     inserir(&f1,6);
+    inserir(&f1,7);
+    inserir(&f1,8);
+    inserir(&f1,9);
+    inserir(&f1,10);
+
     imprimir(&f1);
 
     return 0;
